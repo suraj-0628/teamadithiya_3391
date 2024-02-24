@@ -4,6 +4,7 @@ import Card from "./components/Card";
 
 import Hero from "./sections/Hero";
 import Buttons from "./components/Buttons";
+import { image2 } from "./assets";
 const App =()=>{
   return (
     <main className="relative">
@@ -63,7 +64,9 @@ const App =()=>{
       </section>
 
       <section  className="pt-10">
-      <div className='max-w-screen flex xl:flex-row flex-col justify-center h-[200px]  bg-black '></div>
+      <div className='max-w-screen flex xl:flex-row flex-col justify-center h-[300px]  bg-black '>
+        <img src={image2} width={2000} alt="" />
+      </div>
       </section>
     </main>
   )
