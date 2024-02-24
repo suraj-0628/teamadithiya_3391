@@ -6,7 +6,7 @@ const Card = () => {
     <div className='pt-10 padding-x'>
         <a href="/" >
         <div className='h-[20rem] w-[20rem] bg-black rounded-xl '>
-        <img src={sameImg} height={1000} width={1000} className='p-8' alt="" />
+        <img src={sameImg} height={1000} width={1000} className='py-' alt="" />
         </div>
     </a>
     </div>
