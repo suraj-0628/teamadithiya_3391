@@ -1,4 +1,4 @@
-
+import { image1 } from "./assets";
  
  const App =()=>{
   return (
@@ -148,10 +148,18 @@
           </div>
         </div>
       </div>
-      {/*  */}
-      <div className="flex justify-center items-center pt-10">
+      {/* underline code */}
+      <div className="flex justify-center items-center pt-10 pb-5">
       <div className="border-2 border-black w-[50%]"></div>
       </div>
+
+      <footer className="bg-black w-screen h-[500px] flex justify-center items-start">
+        <img src={image1} height={1000} width={1000} alt="" />
+
+        <div className="flex justify-center items-center pt-10 pb-5">
+      <div className="border-2 border-gray-300 w-[50%]"></div>
+      </div>
+      </footer>
     </main>
   )
  }
