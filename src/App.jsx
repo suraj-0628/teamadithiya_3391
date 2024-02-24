@@ -11,31 +11,59 @@ const App =()=>{
       <section className=''><Hero /></section>
       {/* BUTTONS */}
       <section className="flex padding-x gap-10 pt-10">
-      <button className='h-16 w-[20rem] bg-slate-300 rounded-3xl hover:bg-blue-400'>
+      <button className='h-16 w-[20rem] bg-gray-300 rounded-3xl hover:bg-blue-400'>
+        Hover here
         </button>
 
-        <button className='h-16 w-[20rem] bg-slate-300 rounded-3xl hover:bg-red-400'>
+        <button className='h-16 w-[20rem] bg-gray-300 rounded-3xl hover:bg-red-400'>
+        Hover here
         </button>
 
-        <button className='h-16 w-[20rem] bg-slate-300 rounded-3xl hover:bg-green-400'>
+        <button className='h-16 w-[20rem] bg-gray-300 rounded-3xl hover:bg-green-400'>
+        Hover here
         </button>
 
-        <button className='h-16 w-[20rem] bg-slate-300 rounded-3xl hover:bg-yellow-400 '>
+        <button className='h-16 w-[20rem] bg-gray-300 rounded-3xl hover:bg-yellow-400 '>
+        Hover here
         </button>
-
-
-
-        {/* <Buttons />
-        <Buttons />
-        <Buttons /> */}
       </section>
       {/*  */}
+      <section className="padding-x pt-10">
+        <h1 className="text-2xl font-bold">Watch Now</h1>
+      </section>
       <section className=" flex  overflow-x-auto padding-x">
        <Card />
        <Card />
        <Card />
        <Card />
        <Card />
+      </section>
+      {/* repeat above */}
+      <section className="padding-x pt-10">
+        <h1 className="text-2xl font-bold">Live from the club</h1>
+      </section>
+      <section className=" flex  overflow-x-auto padding-x">
+       <Card />
+       <Card />
+       <Card />
+       <Card />
+       <Card />
+      </section>
+
+       {/* repeat above */}
+       <section className="padding-x pt-10">
+        <h1 className="text-2xl font-bold">Latest Label Releases</h1>
+      </section>
+      <section className=" flex  overflow-x-auto padding-x">
+       <Card />
+       <Card />
+       <Card />
+       <Card />
+       <Card />
+      </section>
+
+      <section  className="pt-10">
+      <div className='max-w-screen flex xl:flex-row flex-col justify-center h-[200px]  bg-black '></div>
       </section>
     </main>
   )
