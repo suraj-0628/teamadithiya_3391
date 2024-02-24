@@ -1,6 +1,8 @@
+
+ 
  const App =()=>{
   return (
-    <main className="relative w-full h-full">
+    <main className="relative w-full h-full bg-gradient-to-t  from-green-400">
       <header className="">
       
       </header>
@@ -31,13 +33,124 @@
 
       {/*  */}
       <div className="pt-5 pl-[25%]">
-        <div className="flex justify-start items-center gap-32">
+        <div className="flex justify-start items-center gap-72">
           <p>9:05am -9:10am PST</p>
           <div>
           <h1 className="text-xl font-semibold ">Welcome</h1>
-          <p className="font-light">PRESENTED BY KARP YOUMAN ,EMCEE</p>
+          <p className="font-light pt-2">PRESENTED BY KARP YOUMAN ,EMCEE</p>
           </div>
         </div>
+      </div>
+      {/*  */}
+      <div className="flex justify-center items-center pt-10">
+      <div className="border-2 border-black w-[50%]"></div>
+      </div>
+
+      {/* line 2 */}
+       {/*  */}
+       <div className="pt-5 pl-[25%]">
+        <div className="flex justify-start items-center gap-72">
+          <p>9:05am -9:10am PST</p>
+          <div>
+          <h1 className="text-xl font-semibold ">Welcome</h1>
+          <p className="font-light pt-2">PRESENTED BY KARP YOUMAN ,EMCEE</p>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="flex justify-center items-center pt-10">
+      <div className="border-2 border-black w-[50%]"></div>
+      </div>
+
+      {/* line 3 couldnt recall the loop syntax .map */}
+      {/*  */}
+      <div className="pt-5 pl-[25%]">
+        <div className="flex justify-start items-center gap-72">
+          <p>9:05am -9:10am PST</p>
+          <div>
+          <h1 className="text-xl font-semibold ">Welcome</h1>
+          <p className="font-light pt-2">PRESENTED BY KARP YOUMAN ,EMCEE</p>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="flex justify-center items-center pt-10">
+      <div className="border-2 border-black w-[50%]"></div>
+      </div>
+      {/* line 4 */}
+       {/*  */}
+       <div className="pt-5 pl-[25%]">
+        <div className="flex justify-start items-center gap-72">
+          <p>9:05am -9:10am PST</p>
+          <div>
+          <h1 className="text-xl font-semibold ">Welcome</h1>
+          <p className="font-light pt-2">PRESENTED BY KARP YOUMAN ,EMCEE</p>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="flex justify-center items-center pt-10">
+      <div className="border-2 border-black w-[50%]"></div>
+      </div>
+      {/* line 5 */}
+       {/*  */}
+       <div className="pt-5 pl-[25%]">
+        <div className="flex justify-start items-center gap-72">
+          <p>9:05am -9:10am PST</p>
+          <div>
+          <h1 className="text-xl font-semibold ">Welcome</h1>
+          <p className="font-light pt-2">PRESENTED BY KARP YOUMAN ,EMCEE</p>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="flex justify-center items-center pt-10">
+      <div className="border-2 border-black w-[50%]"></div>
+      </div>
+      {/* line 6 */}
+       {/*  */}
+       <div className="pt-5 pl-[25%]">
+        <div className="flex justify-start items-center gap-72">
+          <p>9:05am -9:10am PST</p>
+          <div>
+          <h1 className="text-xl font-semibold ">Welcome</h1>
+          <p className="font-light pt-2">PRESENTED BY KARP YOUMAN ,EMCEE</p>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="flex justify-center items-center pt-10">
+      <div className="border-2 border-black w-[50%]"></div>
+      </div>
+      {/* line 7 */}
+       {/*  */}
+       <div className="pt-5 pl-[25%]">
+        <div className="flex justify-start items-center gap-72">
+          <p>9:05am -9:10am PST</p>
+          <div>
+          <h1 className="text-xl font-semibold ">Welcome</h1>
+          <p className="font-light pt-2">PRESENTED BY KARP YOUMAN ,EMCEE</p>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="flex justify-center items-center pt-10">
+      <div className="border-2 border-black w-[50%]"></div>
+      </div>
+      {/* line 8 */}
+       {/*  */}
+       <div className="pt-5 pl-[25%]">
+        <div className="flex justify-start items-center gap-72">
+          <p>9:05am -9:10am PST</p>
+          <div>
+          <h1 className="text-xl font-semibold ">Welcome</h1>
+          <p className="font-light pt-2">PRESENTED BY KARP YOUMAN ,EMCEE</p>
+          </div>
+        </div>
+      </div>
+      {/*  */}
+      <div className="flex justify-center items-center pt-10">
+      <div className="border-2 border-black w-[50%]"></div>
       </div>
     </main>
   )
